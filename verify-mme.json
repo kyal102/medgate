@@ -1,0 +1,47 @@
+[
+  {
+    "url": "https://www.cdc.gov/mmwr/volumes/71/rr/rr7103a1.htm",
+    "name": "CDC Clinical Practice Guideline for Prescribing Opioids for Pain",
+    "snippet": "... mg = milligram; MME = morphine milligram equivalent. * Multiply the dose for each opioid by the conversion factor to determine the dose in MMEs.",
+    "host_name": "www.cdc.gov",
+    "rank": 0,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://medicaid-documents.dhhs.utah.gov/Documents/files/Opioid-Morphine-EQ-Conversion-Factors.pdf",
+    "name": "[PDF] Opioid Oral Morphine Milligram Equivalent (MME) Conversion",
+    "snippet": "viii The CDC MME conversion factor to calculate morphine milligram equivalents of methadone is 3. Calculating MME for methadone in clinical practice often ...",
+    "host_name": "medicaid-documents.dhhs.utah.gov",
+    "rank": 1,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5739114",
+    "name": "Safety concerns with the Centers for Disease Control opioid calculator",
+    "snippet": "Tapentadol's package insert does not list an MME or equianalgesic dose conversion because no study to date has been powered to appropriately assess conversion.",
+    "host_name": "pmc.ncbi.nlm.nih.gov",
+    "rank": 2,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.mdcalc.com/calc/10170/morphine-milligram-equivalents-mme-calculator",
+    "name": "Morphine Milligram Equivalents (MME) Calculator - MDCalc",
+    "snippet": "Calculates total daily morphine milligram equivalents. IMPORTANT: There is no completely safe opioid dose, and this calculator does not substitute for clinical ...",
+    "host_name": "www.mdcalc.com",
+    "rank": 3,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://emedicine.medscape.com/article/2138678-overview",
+    "name": "Opioid Equivalents and Conversions: Overview - Medscape Reference",
+    "snippet": "Table 1. Opioid Equi-analgesic Doses ; Fentanyl*. 0.2 mg (200 mcg). - ; Methadone**. -. - ; *See Table 2 for transdermal fentanyl conversion. ** ...",
+    "host_name": "emedicine.medscape.com",
+    "rank": 4,
+    "date": "",
+    "favicon": ""
+  }
+]

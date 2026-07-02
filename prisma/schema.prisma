@@ -1,0 +1,211 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "sqlite"
+  url      = env("DATABASE_URL")
+}
+
+model GateVerification {
+  id              String   @id @default(cuid())
+  claim           String
+  lane            String
+  gateId          String
+  decision        String
+  riskLabel       String
+  reason          String
+  evidence        String
+  missingEvidence String
+  latencyMs       Int
+  evidenceHash    String
+  patientContext  String?
+  createdAt       DateTime @default(now())
+  sessionId       String?
+}
+
+model BenchmarkRun {
+  id          String   @id @default(cuid())
+  totalCases  Int
+  passed      Int
+  blocked     Int
+  needsReview Int
+  evidenceReq Int
+  failed      Int
+  durationMs  Int
+  gateResults String
+  createdAt   DateTime @default(now())
+}
+
+model EvidencePack {
+  id              String   @id @default(cuid())
+  packHash        String   @unique
+  verificationIds String
+  timestamp       DateTime @default(now())
+  lane            String
+  summary         String
+}
+
+model DrugInteraction {
+  id             String   @id @default(cuid())
+  drugA          String
+  drugB          String
+  severity       String
+  mechanism      String
+  description    String
+  clinicalEffect String
+  management     String
+  evidenceLevel  String
+  source         String
+}
+
+model DoseRule {
+  id                String   @id @default(cuid())
+  drugName          String
+  route             String
+  population        String
+  minDose           Float
+  maxDose           Float
+  maxDailyDose      Float?
+  unit              String
+  adjustmentFactors String?
+  notes             String?
+}
+
+model LabReference {
+  id               String   @id @default(cuid())
+  analyte          String
+  unit             String
+  criticalLow      Float?
+  criticalHigh     Float?
+  refLow           Float?
+  refHigh          Float?
+  ageGroup         String?
+  sex              String?
+  physiologicalMin Float?
+  physiologicalMax Float?
+}
+
+model License {
+  id           String   @id @default(cuid())
+  tier         String
+  organization String
+  contactEmail String
+  activatedAt  DateTime @default(now())
+  expiresAt    DateTime
+  maxUsers     Int
+  gatesEnabled String
+  isActive     Boolean  @default(true)
+  apiKeys      String
+}
+
+model User {
+  id        String   @id @default(cuid())
+  email     String   @unique
+  name      String?
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+}
+
+model Post {
+  id        String   @id @default(cuid())
+  title     String
+  content   String?
+  published Boolean  @default(false)
+  authorId  String
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+}
+
+model AdverseEvent {
+  id              String   @id @default(cuid())
+  patientId       String?
+  drugName        String
+  reaction        String
+  severity        String
+  onsetDate       String?
+  causalityScore  Int
+  causalityCategory String
+  naranjoAnswers  String
+  outcome         String
+  actionTaken     String
+  reporter        String?
+  description     String
+  gateDecision    String
+  createdAt       DateTime @default(now())
+}
+
+model ClinicalScore {
+  id          String   @id @default(cuid())
+  scoreType   String
+  patientId   String?
+  rawScore    Int
+  totalPossible Int
+  riskLevel   String
+  components  String
+  recommendation String
+  gateDecision String
+  createdAt   DateTime @default(now())
+}
+
+model SurgicalChecklist {
+  id              String   @id @default(cuid())
+  patientId       String?
+  procedure       String
+  phase           String
+  signInComplete  Boolean  @default(false)
+  timeoutComplete Boolean  @default(false)
+  signOutComplete Boolean  @default(false)
+  itemsChecked    String
+  itemsMissed     String
+  safetyConcerns  String
+  gateDecision    String
+  createdAt       DateTime @default(now())
+}
+
+model NearMiss {
+  id              String   @id @default(cuid())
+  eventDate       String
+  department      String
+  category        String
+  severity        String
+  description     String
+  contributingFactors String
+  preventiveActions   String
+  reporter        String?
+  gateDecision    String
+  createdAt       DateTime @default(now())
+}
+
+model MedReconciliation {
+  id              String   @id @default(cuid())
+  patientId       String?
+  phase           String
+  homeMedications String
+  currentOrders   String
+  discrepancies   String
+  resolutionStatus String
+  pharmacistReview Boolean @default(false)
+  physicianApproved Boolean @default(false)
+  gateDecision    String
+  createdAt       DateTime @default(now())
+}
+
+model IncidentReport {
+  id              String   @id @default(cuid())
+  incidentDate    String
+  department      String
+  category        String
+  severity        String
+  description     String
+  immediateActions String
+  rootCauseCategories String
+  contributingFactors String
+  correctiveActions   String
+  followUpRequired Boolean @default(false)
+  reporter        String?
+  status          String   @default("open")
+  gateDecision    String
+  createdAt       DateTime @default(now())
+  updatedAt       DateTime @updatedAt
+}

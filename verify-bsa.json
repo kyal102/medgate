@@ -1,0 +1,47 @@
+[
+  {
+    "url": "https://www.medcentral.com/calculators/body-metabolism/body-surface-area-bsa-mosteller-square-root-method",
+    "name": "BSA Calculator (Mosteller Formula) - MedCentral",
+    "snippet": "Body Surface Area (BSA) is a measure of the total outer surface area of the body, calculated using the Mosteller formula or square root method.",
+    "host_name": "www.medcentral.com",
+    "rank": 0,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.pearson.com/channels/calculators/body-surface-area-bsa-calculator",
+    "name": "Body Surface Area (BSA) Calculator | Mosteller, Du Bois  - Pearson",
+    "snippet": "Use BSA = √((height × weight)/3600). Substitute: BSA = √((175 × 72)/3600 ... BSA estimates body surface area, while BMI compares weight to height squared.",
+    "host_name": "www.pearson.com",
+    "rank": 1,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://globalrph.com/medcalcs/body-surface-area-bsa",
+    "name": "Body Surface Area Calculator – BSA - GlobalRPH",
+    "snippet": "1. Mosteller Formula: It is calculated by multiplying the person's height in cm with his/her weight in kilograms and dividing the value by 3600.",
+    "host_name": "globalrph.com",
+    "rank": 2,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.cancercalc.com/BSA.php",
+    "name": "Body Surface Area (BSA) calculator - CancerCalc",
+    "snippet": "The Mosteller formula is commonly used and is calculated using the following formula: √ height (cm) x weight (kg)/ 3600. References: 1. Mosteller R.",
+    "host_name": "www.cancercalc.com",
+    "rank": 3,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://codefinity.com/courses/v2/90ae3f69-b47d-4e9a-84c4-31ec51217d3c/1bf22821-6314-416d-9fc8-53b1be7c81ad/88007acd-4682-4102-a89a-6691273b8f62",
+    "name": "Learn Calculating Body Surface Area (BSA) for Dosing - Codefinity",
+    "snippet": "... calculating BSA due to its simplicity and reliability. The formula is: BSA (m²) = sqrt([height (cm) × weight (kg)] / 3600). Using this formula, you can ...\nCalculate Body Surface Area (BSA) using the Mosteller formula. Args ... sqrt([height (cm) × weight (kg)] / 3600). Submit Answer. question mark. Why is BSA ...",
+    "host_name": "codefinity.com",
+    "rank": 4,
+    "date": "",
+    "favicon": ""
+  }
+]

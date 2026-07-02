@@ -1,0 +1,47 @@
+[
+  {
+    "url": "https://www.rcp.ac.uk/resources/national-early-warning-score-news-2",
+    "name": "National Early Warning Score (NEWS) 2 - RCP",
+    "snippet": "The score is then aggregated and uplifted by 2 points for people requiring supplemental oxygen to maintain their recommended oxygen saturation.",
+    "host_name": "www.rcp.ac.uk",
+    "rank": 0,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11899892",
+    "name": "Modifications to the National Early Warning Score 2 - PMC - NIH",
+    "snippet": "NEWS2 aggregates scores for six routinely collected physiological metrics: respiration rate; oxygen saturation; systolic blood pressure; pulse rate; level of ...\nThis review aimed to map how the NEWS2 has been modified to improve its predictive accuracy while placing minimal additional burden on clinical teams.",
+    "host_name": "pmc.ncbi.nlm.nih.gov",
+    "rank": 1,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://rightdecisions.scot.nhs.uk/media/2564/news2-874.pdf",
+    "name": "[PDF] National Early Warning Score (NEWS2) - Standardising Assessment",
+    "snippet": "A weighting of an additional 2 points for patients requiring supplementary oxygen to maintain oxygen saturations is added to the aggregate score.",
+    "host_name": "rightdecisions.scot.nhs.uk",
+    "rank": 2,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.researchgate.net/figure/NEWS2-scoring-matrix-Reproduced-from-Royal-College-of-Physicians-National-Early-Warning_fig1_357069145",
+    "name": "NEWS2 scoring matrix Reproduced from: Royal College of",
+    "snippet": "NEWS2 score of 6 or more showed the highest sensitivity (78.1%), specificity (94.8%), and the AUC (0.838) for predicting an adverse outcome. Among comorbidities ...\nThe average NEWS2 score was 2.9 points among 251 patients, indicating a moderate level of care complexity and recommending assessment by a registered nurse ...",
+    "host_name": "www.researchgate.net",
+    "rank": 3,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://ebmcalc.com/NEWS.htm",
+    "name": "National Early Warning Score 2 (NEWS2) - EBMcalc",
+    "snippet": "The NEWS2 is based on a simple aggregate scoring system in which a score is allocated to physiological measurements, already recorded in routine practice, when ...",
+    "host_name": "ebmcalc.com",
+    "rank": 4,
+    "date": "",
+    "favicon": ""
+  }
+]
